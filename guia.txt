@@ -1,0 +1,26 @@
+- 1º mobile
+.body: 1 class:"background"-> 2 background (background color + background image)
+
+.div geral "container" - flex direction: column (o row é a pre-definição):
+	- div "info-container": h1 class:"title" + p class:"informative-text"
+	
+	- div "info-and-form":
+		- div "advertisement-container": p class:"advertisement"
+		- div "form-container": div class: "input-container":input class:"input-label" + img class: "alert"
+								p class: "alert"
+								div class: "input-container":input class:"input-label" + img class: "alert"
+								p class: "alert"
+								div class: "input-container":input class:"input-label" + img class: "alert"
+								p class: "alert"
+								div class: "input-container":input class:"input-label" + img class: "alert"
+								p class: "alert"								
+								button class: "claim-button"
+								p class:"terms-and-services"
+
+
+
+notas: quando mudar para desktop a info-container e a info-and-form tem de estar dispostas em row
+		
+								
+			
+	
