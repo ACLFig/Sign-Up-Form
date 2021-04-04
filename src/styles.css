@@ -35,8 +35,9 @@ html {
 .advertisement-container {
   display: block;
   background-color: hsl(248, 32%, 49%);
-  height: 4rem;
+  height: 5rem;
   border-radius: 10px;
+  box-shadow: 0 5px hsl(0, 67%, 59%);
 }
 
 .advertisement {
@@ -56,10 +57,25 @@ span.offer {
 }
 .form-container {
   background-color: white;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 5px hsl(0, 67%, 59%);
+}
+
+.input-label {
+  border-radius: 10px;
+  border: 0.01rem solid hsl(249, 10%, 26%);
+  height: 2.5rem;
+  margin: 0 auto 1rem auto;
+  width: 100%;
+  outline: none;
 }
 
 .input-label::placeholder {
   color: hsl(249, 10%, 26%);
+  font-weight: 600;
 }
 
 .alert {
@@ -76,6 +92,10 @@ span.offer {
   text-align: center;
   background-color: hsl(154, 59%, 51%);
   color: white;
+  border-radius: 10px;
+  height: 2.5rem;
+  width: 100%;
+  border: 0.01rem solid hsl(249, 10%, 26%);
 }
 
 .claim-button:hover {
@@ -85,4 +105,12 @@ span.offer {
 .terms-and-services {
   text-align: center;
   color: hsl(246, 25%, 77%);
+}
+
+.terms-services-select {
+  color: hsl(0, 100%, 74%);
+}
+
+.terms-services-select:hover {
+  cursor: pointer;
 }
