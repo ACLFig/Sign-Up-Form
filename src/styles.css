@@ -12,19 +12,13 @@ html {
   margin: 0;
   height: 100%;
   background-color: hsl(0, 100%, 74%);
-  /*background-image: url("images/bg-intro-mobile.png");*/
 }
-
-/*.background-image {
-  height: 100%;
-  margin: 0;
-}*/
 
 .container {
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin: 0 1rem;
+  margin: 8rem 1.5rem 0 1.5rem;
 }
 
 .info-container {
@@ -33,11 +27,12 @@ html {
 }
 
 .advertisement-container {
-  display: block;
   background-color: hsl(248, 32%, 49%);
   height: 5rem;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0 5px hsl(0, 67%, 59%);
+  display: flex;
+  flex-direction: column;
 }
 
 .advertisement {
@@ -52,23 +47,20 @@ span.offer {
   font-weight: 700;
 }
 
-.info-and-form {
-  align-items: center;
-}
 .form-container {
   background-color: white;
-  border-radius: 10px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
   box-shadow: 0 5px hsl(0, 67%, 59%);
 }
 
 .input-label {
-  border-radius: 10px;
-  border: 0.01rem solid hsl(249, 10%, 26%);
-  height: 2.5rem;
-  margin: 0 auto 1rem auto;
+  border-radius: 8px;
+  border: 0.05rem solid hsl(0, 0%, 69%);
+  height: 3.5rem;
+  margin: 0 auto 1.2rem auto;
   width: 100%;
   outline: none;
 }
@@ -76,6 +68,7 @@ span.offer {
 .input-label::placeholder {
   color: hsl(249, 10%, 26%);
   font-weight: 600;
+  padding-left: 10px;
 }
 
 .alert {
@@ -87,15 +80,16 @@ span.offer {
 }
 
 .claim-button {
-  display: block;
-  margin: 0 auto;
   text-align: center;
   background-color: hsl(154, 59%, 51%);
   color: white;
-  border-radius: 10px;
-  height: 2.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  height: 3.5rem;
   width: 100%;
-  border: 0.01rem solid hsl(249, 10%, 26%);
+  border: none;
+  box-shadow: 0 4px hsl(154, 57%, 43%);
+  margin-bottom: 0.5rem;
 }
 
 .claim-button:hover {
@@ -105,10 +99,12 @@ span.offer {
 .terms-and-services {
   text-align: center;
   color: hsl(246, 25%, 77%);
+  font-size: 12px;
 }
 
 .terms-services-select {
   color: hsl(0, 100%, 74%);
+  font-weight: 600;
 }
 
 .terms-services-select:hover {
